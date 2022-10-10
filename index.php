@@ -6,7 +6,10 @@
       <div class="row align-items-center py-md-5 py-3">
         <div class="col-md-5 content-left pt-md-0 pt-5">
           <h1>Meet with us to success dream business</h1>
-          <p class="mt-3 mb-md-5 mb-4">Empowering our clients, collegues and communities to move forward with confidence.</p>
+          <p class="mt-3 mb-2">Empowering our clients, collegues and communities to move forward with confidence.</p>
+		  <p class="mb-md-5 mb-4">
+			 Assisting clients navigate many complexities of Financial Reporting, Cross Border Transaction, Business Valuation & Analytics.
+		  </p>
           <a href="#login.html" class="btn btn-primary btn-theme">Know More</a>
         </div>
         <div class="col-md-7 content-photo mt-md-0 mt-5">
@@ -23,7 +26,7 @@
   <div class="container py-md-3">
     <div class="heading text-center mx-auto">
       <h3 class="head">Making it happen </h3>
-      <p class="my-3 head"> Assisting clients navigate many complexities of Financial Reporting, Cross Border Transaction, Business Valuation & Analytics.</p>
+      <p class="my-3 head">  Our Head office is at Mumbai and branches at Pune, New Delhi, Bengalaru and Ahmedabad. The Firm services on cross border local servicing though its connects with Independent accounting firms in various cities Globally.</p>
     </div>
     <div class="row bottom_grids pt-md-3">
 	  <div class="col-lg-3 col-md-6 mt-5">
