@@ -20,7 +20,7 @@
      <!--- <a class="navbar-brand" href="index.html"><span class="fa fa-diamond"></span>Market</a> -->
       
     <a class="navbar-brand" href="#index.php">
-        <img src="chokshi.png" alt="Your logo" title="Your logo" style="height:55px;" />
+        <img src="chokshi.png" alt="Your logo" title="Your logo" style="height:45px;" />
     </a> 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,10 +30,34 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="index.php">Home</a>
+            <a class="nav-link" href="industries.php">Industries</a>
+          </li>         
+		  <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Services
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="pricing.html"><span class="fa fa-suitcase" aria-hidden="true"></span>Audit And Assurance</a>
+              <a class="dropdown-item" href="career.html"><span class="fa fa-users" aria-hidden="true"></span>Tax & Regulators</a>
+              <a class="dropdown-item" href="learn.html"><span class="fa fa-usd" aria-hidden="true"></span>Advisory</a>
+              <a class="dropdown-item" href="blog.html"><span class="fa fa-globe" aria-hidden="true"></span>OutSourcing</a>             
+            </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.php">About</a>
+		   <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Careers
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="pricing.html"><span class="fa fa-users" aria-hidden="true"></span>Students</a>
+			  <a class="dropdown-item" href="pricing.html"><span class="fa fa-user-circle" aria-hidden="true"></span>Alumni Relation</a>
+              <a class="dropdown-item" href="career.html"><span class="fa fa-bar-chart" aria-hidden="true"></span>
+			  Growing With Us</a>
+			  <a class="dropdown-item" href="career.html"><span class="fa fa-gift" aria-hidden="true"></span>
+			  Life At Chokshi & Chokshi</a>			  
+            </div>
+          </li>		  
+		  <li class="nav-item">
+            <a class="nav-link" href="about.php">About us</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contact.php">Contact</a>

@@ -1,4 +1,70 @@
 <?php include("header.php"); ?>
+
+
+
+<style>
+.card-counter{
+    box-shadow: 2px 2px 10px #DADADA;
+    margin: 5px;
+    padding: 20px 10px;
+    background-color: #fff;
+    height: 100px;
+    border-radius: 5px;
+    transition: .3s linear all;
+	height: 175px;
+  }
+
+  .card-counter:hover{
+    box-shadow: 4px 4px 20px #DADADA;
+    transition: .3s linear all;
+  }
+
+  .card-counter.primary{
+    background-color: #000A71;
+    color: #FFF;
+  }
+
+  .card-counter.danger{
+    background-color: #000A71;
+    color: #FFF;
+  }  
+
+  .card-counter.success{
+    background-color: #000A71;
+    color: #FFF;
+  }  
+
+  .card-counter.info{
+    background-color: #000A71;
+    color: #FFF;
+  }  
+
+  .card-counter i{
+    font-size: 5em;
+    opacity: 0.2;
+  }
+
+  .card-counter .count-numbers{
+    position: absolute;
+    right: 35px;
+    top: 20px;
+    font-size: 72px;
+    display: block;
+  }
+
+  .card-counter .count-name{
+    position: absolute;
+    right: 35px;
+    top: 105px;
+    font-style: italic;
+    text-transform: capitalize;
+    opacity: 0.5;
+    display: block;
+    font-size: 38px;
+  }
+</style>  
+
+
 <!-- index-block1 -->
 <div class="w3l-index-block1">
   <div class="content py-5">
@@ -182,6 +248,45 @@
     </div>
   </div>
 </section>
+
+<section>
+<div class="container">
+    <div class="row">
+    <div class="col-md-3">
+      <div class="card-counter primary">
+        <i class="fa fa-code-fork"></i>
+        <span class="count-numbers">45+</span>
+        <span class="count-name">years</span>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card-counter danger">
+        <i class="fa fa-users"></i>
+        <span class="count-numbers">200+</span>
+        <span class="count-name">Team</span>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card-counter success">
+        <i class="fa fa-map-marker"></i>
+        <span class="count-numbers">5</span>
+        <span class="count-name">Cities</span>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card-counter info">
+        <i class="fa fa-building"></i>
+        <span class="count-numbers">1</span>
+        <span class="count-name">Firm</span>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
 <!-- content-with-photo17 --
 <section class="w3l-index-block5">
   <!-- main-slider --
