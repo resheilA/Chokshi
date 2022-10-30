@@ -11,6 +11,7 @@
     <link href="//fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900&display=swap" rel="stylesheet">
     <!-- //web fonts -->
     <!-- Template CSS -->
+	<link rel="stylesheet" href="premium.css">
     <link rel="stylesheet" href="assets/css/style-starter.css">
   </head>
   <body>
@@ -19,7 +20,7 @@
     <div class="container">
      <!--- <a class="navbar-brand" href="index.html"><span class="fa fa-diamond"></span>Market</a> -->
       
-    <a class="navbar-brand" href="#index.php">
+    <a class="navbar-brand" href="index.php">
         <img src="chokshi.png" alt="Your logo" title="Your logo" style="height:45px;" />
     </a> 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -37,10 +38,10 @@
               Services
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="pricing.html"><span class="fa fa-suitcase" aria-hidden="true"></span>Audit And Assurance</a>
-              <a class="dropdown-item" href="career.html"><span class="fa fa-users" aria-hidden="true"></span>Tax & Regulators</a>
-              <a class="dropdown-item" href="learn.html"><span class="fa fa-usd" aria-hidden="true"></span>Advisory</a>
-              <a class="dropdown-item" href="blog.html"><span class="fa fa-globe" aria-hidden="true"></span>OutSourcing</a>             
+              <a class="dropdown-item" href="audit.php"><span class="fa fa-suitcase" aria-hidden="true"></span>Audit And Assurance</a>
+              <a class="dropdown-item" href="tax.php"><span class="fa fa-users" aria-hidden="true"></span>Tax & Regulators</a>
+              <a class="dropdown-item" href="advisory.php"><span class="fa fa-usd" aria-hidden="true"></span>Advisory</a>
+              <a class="dropdown-item" href="outsourcing.php"><span class="fa fa-globe" aria-hidden="true"></span>OutSourcing</a>             
             </div>
           </li>
 		   <li class="nav-item dropdown">
